@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "123793053128",
+    "project_id": "premium-tailor-shop-project",
+    "storage_bucket": "premium-tailor-shop-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123793053128:android:0a7494b48cdd3b34871cfd",
+        "android_client_info": {
+          "package_name": "com.android.premiumtailorshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123793053128-mqtqmpibn4ir9445l49e82s64rordiqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgq6MdSY9U9XHf6iKK6MeWRBUHchL-mFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123793053128-mqtqmpibn4ir9445l49e82s64rordiqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
