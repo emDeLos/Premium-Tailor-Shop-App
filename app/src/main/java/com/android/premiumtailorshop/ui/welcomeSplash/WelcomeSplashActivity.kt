@@ -1,13 +1,12 @@
 package com.android.premiumtailorshop.ui.welcomeSplash
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.android.premiumtailorshop.common.moveToPage
 import com.android.premiumtailorshop.databinding.ActivityWelcomeSplashBinding
-import com.android.premiumtailorshop.ui.login.LoginActivity
 
 @SuppressLint("CustomSplashScreen")
 class WelcomeSplashActivity : AppCompatActivity() {
@@ -47,7 +46,7 @@ class WelcomeSplashActivity : AppCompatActivity() {
     }
 
     private fun goToLogin() {
-        startActivity(Intent(this, LoginActivity::class.java))
+        moveToPage(this, "login")
         finish()
     }
 }
