@@ -19,10 +19,11 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/et_login_email"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="280dp"
+        android:layout_width="300dp"
         android:layout_height="65dp"
         android:layout_marginTop="100dp"
         android:hint="@string/email_edit_text_hint"
+        android:textColorHint="#FF9800"
         app:endIconMode="clear_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,13 +38,14 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/et_login_password"
-        android:layout_width="280dp"
+        android:layout_width="300dp"
         android:layout_height="65dp"
         android:layout_marginTop="30dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:startIconDrawable="@drawable/baseline_password_24"
         app:endIconMode="password_toggle"
         android:hint="@string/password_edit_text_hint"
+        android:textColorHint="#FF9800"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/et_login_email">

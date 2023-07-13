@@ -6,4 +6,13 @@
     <string name="password_edit_text_hint">Password</string>
     <string name="login_button">Login</string>
     <string name="sign_up_button">Sign Up</string>
+
+    // Register Activity
+    <string name="register_label">Register User</string>
+    <string name="register_firstname_hint">First Name</string>
+    <string name="register_lastname_hint">Last Name</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_button">Register</string>
+    <string name="register_error_label">Please fill up all text field.</string>
 </resources>
